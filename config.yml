@@ -1,0 +1,7 @@
+DB:
+  HOST: "localhost"
+  PORT: "5432"
+  USER: "fastapi"
+  PWD: "fastapi5432"
+  DATABASE: "fastapi_db"
+  URL: "postgresql://fastapi:fastapi5432@localhost:5432/fastapi_db"
