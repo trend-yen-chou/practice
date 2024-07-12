@@ -5,3 +5,7 @@ dependency-injector
 psycopg2-binary
 pydantic
 starlette
+pytest
+httpx
+pytest-sugar
+pytest-cov
