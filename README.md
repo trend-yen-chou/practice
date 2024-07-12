@@ -15,3 +15,10 @@ Run the docker-compose environment:
 ```docker-compose up```
 
 After that visit http://127.0.0.1:8000/docs in your browser.
+
+Test
+---
+
+To Run the test do
+
+```docker-compose run --rm backend py.test /code/test/test.py --cov=code```
