@@ -8,14 +8,10 @@ Run
 
 Build the Docker image:
 
-.. code-block:: bash
-
-   docker-compose build
+```docker-compose build```
 
 Run the docker-compose environment:
 
-.. code-block:: bash
-
-    docker-compose up
+```docker-compose up```
 
 After that visit http://127.0.0.1:8000/docs in your browser.
