@@ -1,9 +1,7 @@
 FastAPI + SQLAlchemy + Dependency Injector Example
 ==================================================
 
-This is a `FastAPI <https://fastapi.tiangolo.com/>`_ +
-`SQLAlchemy <https://www.sqlalchemy.org/>`_ +
-`Dependency Injector <https://python-dependency-injector.ets-labs.org/>`_ example application.
+This is a FastAPI + PostgreSQL + Dependency Injector example application.
 
 Run
 ---
