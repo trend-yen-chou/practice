@@ -22,7 +22,8 @@ class User(Base):
                                                  order_by="Order.id")
 
     def __init__(self, name: str, account: str, password: str,
-                 phone: Optional[str], address: Optional[str], is_active: bool = True) -> None:
+                 phone: Optional[str], address: Optional[str], id: int = None, is_active: bool = True) -> None:
+        self.id = id
         self.name = name
         self.account = account
         self.password = password
