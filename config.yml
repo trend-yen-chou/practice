@@ -4,4 +4,4 @@ DB:
   USER: "fastapi"
   PWD: "fastapi5432"
   DATABASE: "fastapi_db"
-  URL: "postgresql://fastapi:fastapi5432@pg_test:5432/fastapi_db"
+  URL: "postgresql://fastapi:fastapi5432@postgresql_db:5432/fastapi_db"
