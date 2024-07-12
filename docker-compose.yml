@@ -21,7 +21,7 @@ services:
     build: ./
     restart: always
     volumes:
-      - ~/volume/ordersystem:/usr/ordersystem
+      - ~/Volumes/ordersystem:/usr/ordersystem
     ports:
       - "8000:8000"
     depends_on:
@@ -30,4 +30,4 @@ services:
 
 networks:
   default:
-    name: order_network
+    name: fastapi_network
